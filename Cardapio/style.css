@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #085039;
+    text-align: center;
+}
+
+.itemmenu{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #085039;
+}
+.itemmenu:hover /*quando o mouse passa por cima*/
+{
+background-color: rgb(165, 42, 42);
+color:whitesmoke;
+}
+.itemmenu:link/*Cor para links visitados*/
+{
+
+}
+.itemmenu:active/*mostra links que etão ativos(Esse não funciona sozinho)*/
+{
+
+}
+.itemmenu:visited
+{
+
+}
+
+
+h1{
+    font-size:35px;;
+    background-color: rgb(159, 57, 255);
+    margin: 20px;/*margin é transparente, pedding não(pq é o espaço interno)*/
+}
+
+h2{
+    color: rgb(238, 237, 176);
+}
+
+table{
+    color: rgb(248, 114, 248);
+    margin: 0 auto 0 auto;
+    /*border: 3px solid rgb(248, 114, 248);*/
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(248, 114, 248);
+    border-collapse: collapse;
+}
+
+td{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(248, 114, 248);
+    padding: 5px;
+}
+
+.xis{
+    color: rgb(181, 129, 230);
+}
+
+img{
+    width:280px;
+    margin: 0 45px 0 45px; /*em cima, direita, baixo, esquerda. É a ordem de direção das margens*/
+
+}
+
+/*Uma das formas de modificar o tamanho de imagens
+figure{
+    width: 160px;
+}
+
+img{
+    width: 100%;
+}
+*/
+.drink{
+    color: rgb(235, 91, 91);
+}
