@@ -1,11 +1,20 @@
-*{
-    margin: 2px;
-    padding: 2px;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body{
+    font-family: "Truculenta", sans-serif;
+    background-color: rgb(15, 15, 15);
 }
 
 h1{
-    @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap')
-    font-family: "Ojuju", sans-serif;
+    color: rgb(218, 68, 255);
 }
 
+h2{
+    color: rgb(218, 68, 255);
+}
+
+p{
+    font-family: "Eczar", serif;
+    color: rgb(218, 68, 255);
+}
