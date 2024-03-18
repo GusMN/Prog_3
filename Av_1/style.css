@@ -9,7 +9,8 @@
 
 body{
     font-family: "Truculenta", sans-serif;
-    background:linear-gradient(to right, rgb(139, 207, 252), rgb(1, 148, 173));
+    background:linear-gradient(to right, rgb(119, 201, 255), rgb(0, 96, 160));
+    text-align: center;
 }
 
 h1{
@@ -21,7 +22,7 @@ img{
 }
 
 h2{
-    padding-top: 20;
+    padding-top: 30;
     color: rgb(255, 94, 0);
 }
 
@@ -30,4 +31,25 @@ p{
     font-family: "Eczar", serif;
     font-weight: 600;
     color: rgb(20, 0, 70);
+}
+
+table{
+    color: rgb(255, 94, 0);
+    margin: 5 auto 5 auto;
+    /*border: 3px solid rgb(255, 94, 0);*/
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 94, 0);
+    border-collapse: collapse;
+}
+
+.itemmenu{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 0);
+}
+.itemmenu:hover /*quando o mouse passa por cima*/
+{
+background-color: rgb(50, 172, 2);
+color:whitesmoke;
 }
