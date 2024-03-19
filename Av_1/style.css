@@ -45,6 +45,11 @@ table{
     border-collapse: collapse;
 }
 
+iframe{
+border: 25px;
+
+}
+
 .itemmenu{
     padding: 10px;
     border-radius: 5px;
