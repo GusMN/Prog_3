@@ -18,11 +18,13 @@ h1{
 }
 
 img{
-    width:150px
+    margin: 25px;
+    margin-top: 5px;
+    width:200px
 }
 
 h2{
-    padding-top: 30;
+    padding-top: 50;
     color: rgb(255, 94, 0);
 }
 
