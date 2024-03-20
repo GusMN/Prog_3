@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 body{
     font-family: "Truculenta", sans-serif;
-    background:linear-gradient(to right, rgb(119, 201, 255), rgb(0, 96, 160));
+    background:linear-gradient(to right, rgb(119, 239, 255), rgb(1, 97, 221));
     text-align: center;
 }
 
 h1{
     color: rgb(255, 94, 0);
+    padding: 10px;
 }
 
 img{
