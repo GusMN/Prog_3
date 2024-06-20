@@ -1,0 +1,359 @@
+<!-- HTML
+1. Textos
+Os textos em HTML podem ser definidos utilizando diversas tags,
+dependendo do tipo de texto que você deseja apresentar.
+
+Exemplos:
+
+html
+<h1>Este é um título de nível 1</h1>
+<p>Este é um parágrafo.</p>
+<strong>Texto em negrito</strong>
+<em>Texto em itálico</em>
+2. div
+A tag <div> é um contêiner genérico usado para agrupar elementos HTML
+e aplicar estilos.
+
+Exemplo:
+
+html
+<div>
+<h2>Título dentro de uma div</h2>
+<p>Parágrafo dentro de uma div.</p>
+</div>
+
+3. img
+A tag <img> é usada para incorporar imagens em uma página HTML.
+
+Exemplo:
+
+html
+<img src="caminho/para/imagem.jpg" alt="Descrição da imagem">
+4. buttons
+A tag <button> cria um botão interativo.
+
+Exemplo:
+
+html
+<button>Clique Aqui</button>
+5. a (links)
+A tag <a> é usada para criar hyperlinks.
+
+Exemplo:
+
+html
+<a href="https://www.exemplo.com">Visite o Exemplo</a>
+6. input
+A tag <input> é usada para criar campos de entrada em formulários.
+
+Exemplo:
+
+html
+<input type="text" placeholder="Digite seu nome">
+7. table
+
+A tag <table> é usada para criar tabelas.
+
+Exemplo:
+
+html
+<table>
+<tr>
+<th>Nome</th>
+<th>Idade</th>
+</tr>
+<tr>
+<td>Maria</td>
+<td>30</td>
+</tr>
+<tr>
+<td>João</td>
+<td>25</td>
+</tr>
+</table>
+8. class
+Atributo class é usado para aplicar estilos CSS a elementos HTML.
+
+Exemplo:
+
+html
+<div class="meu-estilo">Conteúdo aqui</div>
+
+9. id
+Atributo id é usado para identificar elementos únicos e aplicar estilos CSS
+ou manipulações com JavaScript.
+
+Exemplo:
+
+html
+<div id="meu-id">Conteúdo único</div>
+
+CSS
+1. Usar class
+Classes são usadas para aplicar estilos a um ou mais elementos HTML.
+
+Exemplo:
+
+css
+.meu-estilo {
+color: blue;
+font-size: 20px;
+}
+HTML:
+
+html
+<div class="meu-estilo">Texto azul e maior</div>
+2. display flex
+Flexbox é usado para dispor elementos em um contêiner flexível.
+
+Exemplo:
+
+css
+.container {
+display: flex;
+}
+HTML:
+
+html
+<div class="container">
+<div>Item 1</div>
+<div>Item 2</div>
+</div>
+3. display grid
+Grid é usado para dispor elementos em um layout de grade.
+
+Exemplo:
+
+css
+.grid-container {
+display: grid;
+grid-template-columns: auto auto;
+}
+HTML:
+
+html
+
+<div class="grid-container">
+<div>Item 1</div>
+<div>Item 2</div>
+</div>
+4. text-align
+Alinha o texto dentro de um elemento.
+
+Exemplo:
+
+css
+.texto-centralizado {
+text-align: center;
+}
+HTML:
+
+html
+<p class="texto-centralizado">Texto centralizado</p>
+5. height
+Define a altura de um elemento.
+
+Exemplo:
+
+css
+Copiar código
+.caixa {
+height: 100px;
+
+}
+HTML:
+
+html
+<div class="caixa">Caixa com altura de 100px</div>
+6. width
+Define a largura de um elemento.
+
+Exemplo:
+
+css
+.caixa {
+width: 200px;
+}
+HTML:
+
+html
+<div class="caixa">Caixa com largura de 200px</div>
+7. border
+Define a borda de um elemento.
+
+Exemplo:
+
+css
+.borda {
+border: 2px solid black;
+
+}
+HTML:
+
+html
+<div class="borda">Caixa com borda preta de 2px</div>
+8. color
+Define a cor do texto de um elemento.
+
+Exemplo:
+
+css
+.texto-vermelho {
+color: red;
+}
+HTML:
+
+html
+<p class="texto-vermelho">Texto vermelho</p>
+9. background color
+Define a cor de fundo de um elemento.
+
+Exemplo:
+
+css
+.fundo-verde {
+background-color: green;
+
+}
+HTML:
+
+html
+<div class="fundo-verde">Fundo verde</div>
+10. margin
+Define a margem externa de um elemento.
+
+Exemplo:
+
+css
+.margem {
+margin: 10px;
+}
+HTML:
+
+html
+<div class="margem">Caixa com margem de 10px</div>
+11. padding
+Define o preenchimento interno de um elemento.
+
+Exemplo:
+
+css
+.preenchimento {
+padding: 20px;
+
+}
+HTML:
+
+html
+<div class="preenchimento">Caixa com preenchimento de 20px</div>
+12. hover
+Aplica estilos quando o cursor está sobre um elemento.
+
+Exemplo:
+
+css
+.botao:hover {
+background-color: yellow;
+}
+HTML:
+
+html
+<button class="botao">Passe o mouse aqui</button>
+
+JavaScript
+1. document.getElementById
+Seleciona um elemento pelo seu id.
+
+Exemplo:
+
+javascript
+
+var elemento = document.getElementById('meu-id');
+elemento.innerHTML = "Texto alterado pelo JavaScript";
+HTML:
+
+html
+<div id="meu-id">Texto original</div>
+2. addEventListener
+Adiciona um evento a um elemento.
+
+Exemplo:
+
+javascript
+var botao = document.getElementById('meu-botao');
+botao.addEventListener('click', function() {
+alert('Botão clicado!');
+});
+HTML:
+
+html
+<button id="meu-botao">Clique-me</button>
+3. if, else
+Estrutura condicional.
+
+Exemplo:
+
+javascript
+
+var numero = 10;
+if (numero > 5) {
+console.log('O número é maior que 5');
+} else {
+console.log('O número é 5 ou menor');
+}
+4. for
+Estrutura de loop.
+
+Exemplo:
+
+javascript
+for (var i = 0; i < 5; i++) {
+console.log('Número: ' + i);
+}
+5. function
+Define uma função.
+
+Exemplo:
+
+javascript
+function saudacao(nome) {
+return 'Olá, ' + nome;
+}
+console.log(saudacao('Maria'));
+6. variáveis
+
+Declaração de variáveis.
+
+Exemplo:
+
+javascript
+var nome = 'João';
+let idade = 25;
+const cidade = 'São Paulo';
+7. contas
+Operações matemáticas.
+
+Exemplo:
+
+javascript
+var soma = 5 + 3;
+var subtracao = 10 - 2;
+var multiplicacao = 4 * 2;
+var divisao = 20 / 4;
+console.log(soma, subtracao, multiplicacao, divisao);
+8. pegar valor de input
+Obter o valor de um campo de entrada.
+
+Exemplo:
+
+javascript
+var input = document.getElementById('meu-input');
+
+var valor = input.value;
+console.log('Valor do input:', valor);
+HTML:
+
+html
+<input type="text" id="meu-input" value="Texto de exemplo">
+Espero que esses exemplos detalhados ajudem a entender melhor cada
+um dos conceitos e como eles são aplicados na prática! -->

@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    align-items: center;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(97, 27, 0);
+    border: 5px solid rgb(0, 28, 88);
+}
